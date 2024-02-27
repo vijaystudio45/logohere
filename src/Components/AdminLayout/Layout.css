@@ -1,0 +1,24 @@
+.DashBoard {
+  display: flex;
+}
+
+/* .Sidebar.bg-texture {
+  width: 14%;
+} */
+
+.Outlet {
+  width: 86%;
+}
+
+.rightbar {
+  padding: 40px 40px;
+  border-top: 2px solid white;
+  border-radius: 4px 0px 0px 0px;
+  border-left: 2px solid white;
+  height: 100vh;
+  color: black;
+}
+
+.Layout {
+  /* background-color: #121212; */
+}

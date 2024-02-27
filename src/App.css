@@ -1,0 +1,480 @@
+body {
+  color: white;
+  font-family: poppins;
+}
+
+.publicmain {
+  background: #111111;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: none !important;
+}
+a {
+  cursor: pointer;
+}
+
+a.headeroption {
+  font-size: 15px;
+  font-family: poppins;
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+a.comapnylogo {
+  font-size: 45px;
+  font-family: poppins;
+  color: whitesmoke;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.weblogo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.webimageshow {
+  width: 40%;
+}
+
+.webcontentshow {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.webimageshow img {
+  width: 100%;
+}
+
+.webcontentshow h1 {
+  font-size: 55px;
+  color: white;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  line-height: 69px;
+  font-weight: 600;
+}
+
+.webcontentshow p {
+  font-size: 21px;
+  font-family: poppins;
+  color: white;
+  margin-top: 30px;
+  line-height: 40px;
+}
+
+button.createfunctionbtn.demo {
+  background: #6662da;
+}
+
+h3.socialheading {
+  font-size: 22px;
+  font-family: "Poppins";
+  text-transform: capitalize;
+}
+
+p.socialdescription {
+  font-size: 18px;
+  font-family: poppins;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+section.center-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+p.socialdescription.secvice {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+h2.mostpopularheading {
+  font-size: 40px;
+  font-family: poppins;
+  font-weight: 700;
+}
+
+button.verifybtn {
+  background: #6662da;
+  padding: 15px 40px;
+  font-family: poppins;
+  margin-top: 20px;
+  border-radius: 27px;
+}
+
+/* p.socialdescription.developed {
+  text-align: unset;
+} */
+
+.webcontentshow.contnet h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.webcontentshow.contnet p {
+  margin: 0;
+}
+
+p.socialdescription.selectservice {
+  line-height: 25px;
+}
+
+/* accodian  */
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  transition: 0.5s;
+}
+
+.accordion-header.open {
+  transition: 0.5s;
+}
+
+h3.accodiantitle {
+  font-size: 21px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+p.accordion-content {
+  font-family: poppins;
+  font-size: 15px;
+}
+
+p.accordion-content.active {
+  transition: 0.5s;
+}
+
+.accordion-item {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.accodiantitle {
+  margin: 0; /* Remove default margin for h3 */
+}
+
+.icon-container {
+  transition: transform 0.3s ease;
+}
+
+.accordion-header.open .icon-container {
+  transform: rotate(-90deg);
+}
+
+/* .accordion-show {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+} */
+
+.accordion-show.active {
+  max-height: 500px; /* Set the desired max-height when open */
+}
+
+svg.faplusicon {
+  color: #6662da;
+  font-size: 20px;
+}
+
+.ratingdiv {
+  background: white;
+  color: black;
+  padding: 30px 25px;
+  border-radius: 11px;
+}
+
+h3.ratingheader {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Poppins";
+  margin-bottom: 12px;
+}
+
+p.ratingpera {
+  font-size: 17px;
+  line-height: 33px;
+  font-family: "Poppins";
+}
+
+.ratedprofile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ratedprofile h6 {
+  font-size: 15px;
+  font-family: "Poppins";
+}
+
+.ratingdiv {
+  background: white;
+  color: black;
+  padding: 30px 25px;
+  border-radius: 11px;
+  width: 550px;
+  margin: 0 auto;
+}
+
+img.sliderimageshow {
+  width: 100%;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #6662da !important;
+}
+
+.slick-dots li button:before {
+  font-size: 16px !important;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+}
+
+h6.sendcontnet {
+  font-size: 16px;
+  font-family: poppins;
+  font-weight: 600;
+}
+
+.footerlogo {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* login css  */
+
+.inputsenter {
+  height: 90px;
+}
+
+p.socialdescription.datashow {
+  text-align: unset;
+}
+
+.welcomeuser {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.swal-icon.swal-icon--custom {
+  display: flex;
+  justify-content: center;
+}
+
+h2.mostpopularheading.frequently {
+  text-align: center;
+}
+
+p.socialdescription.develpoedicon {
+  text-align: unset;
+}
+
+.profileheader {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+a.sidebarmenu {
+  padding: 12px 41px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.successAlert .swal-text {
+  color: #6662da !important;
+  font-size: 18px;
+}
+
+.errorAlert .swal-text {
+  color: #ff00009c;
+  font-size: 18px;
+}
+
+.errorAlert .swal-title {
+  color: #ff00009c;
+  font-size: 20px;
+}
+
+a.headeroptionbtn {
+  font-size: 15px;
+  color: black;
+  padding: 9px 20px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background: white;
+  font-weight: 500;
+}
+
+button.createfunctionbtn {
+  font-size: 15px;
+  color: white;
+  padding: 14px 30px;
+  font-family: "Poppins";
+  border-radius: 30px;
+  width: 220px;
+  color: rgb(255 255 255/70%);
+  background-color: #3700b3;
+  border-color: #3700b3;
+  font-weight: 500;
+}
+
+svg.bitcoin {
+  width: 50px;
+}
+
+img.truestpilotimage {
+  width: 90px;
+}
+
+button.reviews-btn {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding: 14px 26px;
+  gap: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+.reviewbtnshow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* button:hover {
+  color: #fff;
+  background-color: #3700b3;
+  border-color: #fff;
+} */
+button:hover {
+  transform: translateY(-0.15rem);
+  box-shadow: 0 0.25rem 0.75rem rgba(30, 34, 40, 0.15);
+  color: #fff;
+}
+
+.stickyheader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #111111;
+  border-bottom: 1px solid gray;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: all 0.3s ease;
+  padding: 18px 0px;
+}
+
+header.nonstickyheader {
+  padding: 60px 0px;
+  transition: all 0.2s ease;
+}
+
+.service-card-image {
+  background: #111111;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+i.telegrameicon {
+  font-size: 12px;
+  color: #0cbb0c;
+}
+
+h2.popularservicehead {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+p.popularpera {
+  margin-bottom: 12px;
+  color: #4f4c4c;
+}
+
+.services-group {
+  display: flex;
+  gap: 12px;
+}
+
+.services-cards {
+  width: 70%;
+}
+
+.service-text {
+  width: 30%;
+}
+
+.sidecontnet {
+  background: #111111;
+  padding: 20px 20px;
+  border-radius: 14px;
+  color: white;
+}
+
+h4.sideheading {
+  font-size: 18px;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 1200px !important;
+}
+
+input.services-input {
+  width: 100%;
+  background: hsl(206deg 100% 73.3% / 19%);
+  margin-bottom: 17px;
+  padding: 13px 15px;
+  border-radius: 6px;
+  outline: none;
+  font-family: "Poppins";
+}
+
+h1.services-heading {
+  font-size: 21px;
+  font-family: poppins;
+}
+
+button.getnumber-btn {
+  width: 100%;
+  background: #3531af;
+  padding: 14px 3px;
+  color: white;
+  font-family: "Poppins";
+  border-radius: 6px;
+}
