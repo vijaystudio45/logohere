@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import Button from "@mui/material/Button";
-import Dialog from "@mui/material/Dialog";
-import DialogActions from "@mui/material/DialogActions";
-import DialogContent from "@mui/material/DialogContent";
-import DialogContentText from "@mui/material/DialogContentText";
-import DialogTitle from "@mui/material/DialogTitle";
-import Slide from "@mui/material/Slide";
+// import Button from "@mui/material/Button";
+// import Dialog from "@mui/material/Dialog";
+// import DialogActions from "@mui/material/DialogActions";
+// import DialogContent from "@mui/material/DialogContent";
+// import DialogContentText from "@mui/material/DialogContentText";
+// import DialogTitle from "@mui/material/DialogTitle";
+// import Slide from "@mui/material/Slide";
 import { useSelector } from "react-redux";
 import { CountryDataAction } from "../../Redux/actions/CountryAction";
 import { useDispatch } from "react-redux";
@@ -164,70 +164,7 @@ const GetServices = () => {
             </div>
           </div>
 
-          <div className="number-popup">
-            <Dialog
-              open={open}
-              keepMounted
-              onClose={handleClose}
-              aria-describedby="alert-dialog-slide-description"
-            >
-              <DialogTitle>
-                <h1 className="services-heading border-b-2 p-4 border-indigo-500">Get Number</h1>
-              </DialogTitle>
-              <DialogContent>
-                <DialogContentText id="alert-dialog-slide-description">
-                  <div class="">
-                    <div class="bg-white">
-                      <form class="bg-white">
-                        <div class="">
-                          <input
-                            placeholder="select service"
-                            className="services-input"
-                            type="text"
-                          />
-                        </div>
-                        <div class="">
-                          <input
-                            placeholder="select Country"
-                            className="services-input"
-                            type="text"
-                          />
-                        </div>
-
-                        <div class="grid grid-cols-2 gap-2">
-                          <div class="">
-                            <input
-                              placeholder="Available Stock"
-                              className="services-input"
-                              type="text"
-                            />
-                          </div>
-                          <div class="">
-                            <input
-                              placeholder="Price"
-                              className="services-input"
-                              type="text"
-                            />
-                          </div>
-                        </div>
-
-                        <button
-                          type="submit"
-                          class="getnumber-btn mb-2"
-                        >
-                          Get Number
-                        </button>
-                      </form>
-                    </div>
-                  </div>
-                </DialogContentText>
-              </DialogContent>
-              {/* <DialogActions>
-                <Button onClick={handleClose}>Disagree</Button>
-                <Button onClick={handleClose}>Agree</Button>
-              </DialogActions> */}
-            </Dialog>
-          </div>
+         
         </div>
       </div>
     </div>

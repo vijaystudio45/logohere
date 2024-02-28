@@ -1,4 +1,4 @@
-import { Link } from "@mui/material";
+
 import React from "react";
 
 const PageNotFound = () => {
@@ -16,11 +16,11 @@ const PageNotFound = () => {
               homepage.
             </p>
 
-            <Link to="/">
+            {/* <Link to="/">
               <button className="px-4 inline py-2 text-sm font-medium leading-5 shadow text-white transition-colors duration-150 border border-transparent rounded-lg focus:outline-none focus:shadow-outline-blue bg-blue-600 active:bg-blue-600 hover:bg-blue-700">
                 back to homepage
               </button>
-            </Link>
+            </Link> */}
           </div>
           <div className="max-w-lg">
             <svg

@@ -1,9 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import thunk from "redux-thunk";
-
-// import rootReducer from "./reducers";
 import { combineReducers } from "redux";
-
 import {
   LoginReducer,
   RegisterReducer,
@@ -26,6 +22,7 @@ const reducer = combineReducers({
   EditRegisterDataReducer,
   CountryDataReducer,
 });
+
 const userDataLocal = localStorage.getItem("userData")
   ? JSON.parse(localStorage.getItem("userData"))
   : null;
@@ -33,9 +30,9 @@ const userDataLocal = localStorage.getItem("userData")
 const initialState = {
   authReducer: { userData: userDataLocal },
 };
+
 const store = configureStore({
   reducer,
-  middleware: [thunk],
   preloadedState: initialState,
 });
 

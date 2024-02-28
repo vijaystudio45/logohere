@@ -1,18 +1,17 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-
-import Box from "@mui/material/Box";
-import Avatar from "@mui/material/Avatar";
-import Menu from "@mui/material/Menu";
-import MenuItem from "@mui/material/MenuItem";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import Divider from "@mui/material/Divider";
-import PersonAdd from "@mui/icons-material/PersonAdd";
-import Settings from "@mui/icons-material/Settings";
-import Logout from "@mui/icons-material/Logout";
+// import Box from "@mui/material/Box";
+// import Avatar from "@mui/material/Avatar";
+// import Menu from "@mui/material/Menu";
+// import MenuItem from "@mui/material/MenuItem";
+// import ListItemIcon from "@mui/material/ListItemIcon";
+// import Divider from "@mui/material/Divider";
+// import PersonAdd from "@mui/icons-material/PersonAdd";
+// import Settings from "@mui/icons-material/Settings";
+// import Logout from "@mui/icons-material/Logout";
 import { LogoutAction } from "../../Redux/actions/AuthAction";
-import HomeSharpIcon from "@mui/icons-material/HomeSharp";
+// import HomeSharpIcon from "@mui/icons-material/HomeSharp";
 import swal from "sweetalert";
 
 const Header = (props) => {
@@ -104,24 +103,24 @@ const Header = (props) => {
             >
               <div class="flex-shrink-0 w-10 h-10 relative">
                 <div class="p-1  rounded-full focus:outline-none focus:ring">
-                  {userData?.image ? (
+                  {/* {userData?.image ? ( */}
                     <img
                       class="w-8 h-8 rounded-full bg-white"
                       src="https://laravelui.spruko.com/tailwind/ynex/build/assets/images/faces/9.jpg"
                       alt=""
                     />
-                  ) : (
-                    <Avatar
-                      sx={{
-                        width: 40,
-                        height: 40,
-                        backgroundColor: getUsernameColor(userData?.username),
-                      }}
-                    >
-                      {userData?.username &&
-                        userData.username.charAt(0).toUpperCase()}
-                    </Avatar>
-                  )}
+                  {/* // ) : (
+                  //   <Avatar
+                  //     sx={{
+                  //       width: 40,
+                  //       height: 40,
+                  //       backgroundColor: getUsernameColor(userData?.username),
+                  //     }}
+                  //   >
+                  //     {userData?.username &&
+                  //       userData.username.charAt(0).toUpperCase()}
+                  //   </Avatar>
+                  // )} */}
 
                   <div class="top-0 left-7 absolute w-3 h-3 bg-lime-400 border-2 border-white rounded-full animate-ping"></div>
                   <div class="top-0 left-7 absolute w-3 h-3 bg-lime-500 border-2 border-white rounded-full"></div>
@@ -133,9 +132,9 @@ const Header = (props) => {
                 </h2>
                 <p class="text-xs text-white">Administrator</p>
               </div>
-            </button>
+            </button> 
 
-            <Menu
+   {/*     <Menu
               anchorEl={anchorEl}
               id="account-menu"
               open={open}
@@ -218,7 +217,7 @@ const Header = (props) => {
                 </ListItemIcon>
                 Logout
               </MenuItem>
-            </Menu>
+            </Menu>*/}
           </li>
         </ul>
       </div>
