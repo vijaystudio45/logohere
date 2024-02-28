@@ -71,10 +71,7 @@ const Header = () => {
               Blog
             </a>
             <a
-              href={
-                HeaderJSONData?.HeaderJSon?.[0]?.HeaderLogo?.customerPanelLink
-                  ?.link
-              }
+              href="/login"
               className="headeroptionbtn md:mr-5 "
             >
               {
