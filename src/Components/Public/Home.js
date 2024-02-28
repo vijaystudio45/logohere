@@ -29,6 +29,35 @@ const Home = () => {
   };
 
 
+    const [responseData, setResponseData] = useState(null);
+
+  const handleButtonClick = () => {
+    const apiUrl = "https://onlinesim.herokuapp.com/";
+
+    const requestData = {
+      action: "GET_NUMBER",
+      key: "123Uf3QI85BnvMNQoOAUAD76fc4",
+      country: "usa",
+      operator: "any",
+      service: "vk",
+    };
+
+    axios
+      .post(apiUrl, requestData, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+      .then((response) => {
+        // Handle the response data here
+        setResponseData(response.data);
+      })
+      .catch((error) => {
+        // Handle errors here
+        console.error("Error:", error);
+      });
+  };
+
 
   return (
     <div className="md:py-12">
