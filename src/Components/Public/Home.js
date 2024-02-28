@@ -75,6 +75,11 @@ const Home = () => {
                 {JSONData.HomeDataJson?.[0]?.socialDescription}
               </p>
 
+
+
+
+                <button onClick={handleButtonClick }>dsssssssssssssssssssssssssssssssssssssssssssssssssg</button>
+
               <div className="groupbtnshow flex items-center gap-6 md:justify-center mt-8">
                 {JSONData.HomeDataJson?.[0]?.buttons?.map((item, index) => (
                   <a href={item?.pageLink} key={index}>
